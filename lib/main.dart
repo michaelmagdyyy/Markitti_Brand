@@ -17,6 +17,7 @@ import 'core/utils/unfucs.dart';
 import 'models/user.dart';
 
 void main() async {
+  
   WidgetsFlutterBinding.ensureInitialized();
   HttpOverrides.global = MyHttpOverrides();
   await lang.EasyLocalization.ensureInitialized();
