@@ -9,6 +9,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../core/widgets/custom_image.dart';
 import '../../gen/assets.gen.dart';
+import '../../gen/my_images.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -20,7 +21,7 @@ class HomeView extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            CustomImage(Assets.svg.logo, width: 88.w, height: 28.h, color: context.primaryColorDark).center.withPadding(top: 16.h),
+            CustomImage(MyImages.logo, width: 100.w, height: 50.h,).center.withPadding(top: 16.h),
             // Row(
             //   children: [
             //     CustomImage(Assets.images.test.path,

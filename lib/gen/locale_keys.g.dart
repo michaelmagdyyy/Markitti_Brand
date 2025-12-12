@@ -102,5 +102,10 @@ abstract class  LocaleKeys {
   static const subCategoryBrand = 'subCategoryBrand';
   static const codeScan = 'codeScan';
   static const price = 'price';
+  static const branchCity = 'branchCity';
+  static const invoiceAmount = 'invoiceAmount';
+  static const discountPercentage = 'discountPercentage';
+  static const amountToBePaid = 'amountToBePaid';
+  static const transactionDateTime = 'transactionDateTime';
 
 }

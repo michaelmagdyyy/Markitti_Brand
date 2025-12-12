@@ -38,6 +38,7 @@ class _QRScannerScreenState extends State<QRScannerScreen> {
           showModalBottomSheet(
               context: context,
               builder: (context) => Container(
+                width: MediaQuery.of(context).size.width,
                     padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 24.h),
                     decoration: BoxDecoration(
                         color: Colors.white,
@@ -46,21 +47,19 @@ class _QRScannerScreenState extends State<QRScannerScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Text(LocaleKeys.brand_details.tr(), style: context.semiboldText.copyWith(fontSize: 18.sp)),
-                        Text("${bloc.infoModel?.brandName}", style: context.boldText.copyWith(fontSize: 18.sp, color: context.primaryColor))
-                            .withPadding(
-                          top: 8.h,
-                        ),
-                        Text(LocaleKeys.monthlyPurchaseLimit.tr(), style: context.semiboldText.copyWith(fontSize: 18.sp)),
-                        Text("${bloc.model?.availableMonthlyPurchaseLimit} L.E",
-                                style: context.boldText.copyWith(fontSize: 18.sp, color: context.primaryColor))
-                            .withPadding(
-                          top: 8.h,
-                        ),
-                        Text(LocaleKeys.dailyPurchaseLimit.tr(), style: context.semiboldText.copyWith(fontSize: 18.sp)),
-                        Text("${bloc.model?.availableDailyPurchaseLimit} L.E",
-                                style: context.boldText.copyWith(fontSize: 18.sp, color: context.primaryColor))
-                            .withPadding(top: 8.h, bottom: 16.h),
+                        Text(LocaleKeys.brand_details.tr(), style: context.semiboldText.copyWith(fontSize: 16.sp)),
+                        Text("${bloc.infoModel?.brandName}", style: context.boldText.copyWith(fontSize: 16.sp, color: context.primaryColor)).withPadding(top: 8.h,),
+                        Text(LocaleKeys.branchCity.tr(), style: context.semiboldText.copyWith(fontSize: 16.sp)),
+                        Text("${bloc.infoModel?.branchName}", style: context.boldText.copyWith(fontSize: 16.sp, color: context.primaryColor)).withPadding(top: 8.h,),
+                        Text("${LocaleKeys.invoiceAmount.tr()}", style: context.semiboldText.copyWith(fontSize: 16.sp)),
+                        Text("${bloc.infoModel?.invoiceAmount} L.E", style: context.boldText.copyWith(fontSize: 16.sp, color: context.primaryColor)).withPadding(top: 8.h,),
+                        Text("${LocaleKeys.discountPercentage.tr()}", style: context.semiboldText.copyWith(fontSize: 16.sp)),
+                        Text("${bloc.infoModel?.discountPercentage} L.E", style: context.boldText.copyWith(fontSize: 16.sp, color: context.primaryColor)).withPadding(top: 8.h, bottom: 16.h),
+                        Text("${LocaleKeys.amountToBePaid.tr()}", style: context.semiboldText.copyWith(fontSize: 16.sp)),
+                        Text("${bloc.infoModel?.amountToBePaid} L.E", style: context.boldText.copyWith(fontSize: 16.sp, color: context.primaryColor)).withPadding(top: 8.h,),
+                        Text(LocaleKeys.transactionDateTime.tr(), style: context.semiboldText.copyWith(fontSize: 16.sp)),
+                        Text("${bloc.infoModel?.transactionDateTime}", style: context.boldText.copyWith(fontSize: 16.sp, color: context.primaryColor)).withPadding(top: 8.h,),
+                        SizedBox(height: 20,)
                       ],
                     ),
                   ));

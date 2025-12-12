@@ -9,7 +9,7 @@ final sl = GetIt.instance;
 
 class ServicesLocator {
   void init() {
-    sl.registerLazySingleton(() => LocationService());
+    // sl.registerLazySingleton(() => LocationService());
     sl.registerFactory(() => LoginBloc());
     sl.registerFactory(() => CodeBloc());
 

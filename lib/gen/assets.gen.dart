@@ -11,21 +11,11 @@ import 'package:flutter/widgets.dart';
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
-
-  /// File path: assets/images/balnce.png
-  AssetGenImage get balnce => const AssetGenImage('assets/images/balnce.png');
-
-  /// File path: assets/images/dig.png
-  AssetGenImage get dig => const AssetGenImage('assets/images/dig.png');
-
-  /// File path: assets/images/digram.png
-  AssetGenImage get digram => const AssetGenImage('assets/images/digram.png');
-
   /// File path: assets/images/test.png
   AssetGenImage get test => const AssetGenImage('assets/images/test.png');
-
-  /// List of all assets
-  List<AssetGenImage> get values => [balnce, dig, digram, test];
+  //
+  // /// List of all assets
+  List<AssetGenImage> get values => [test];
 }
 
 class $AssetsLottieGen {
@@ -40,133 +30,37 @@ class $AssetsLottieGen {
 
 class $AssetsSvgGen {
   const $AssetsSvgGen();
-
-  /// File path: assets/svg/arrow.svg
-  String get arrow => 'assets/svg/arrow.svg';
+  //
+  // /// File path: assets/svg/arrow.svg
+  // String get arrow => 'assets/svg/arrow.svg';
 
   /// File path: assets/svg/back.svg
   String get back => 'assets/svg/back.svg';
-
-  /// File path: assets/svg/branch.svg
-  String get branch => 'assets/svg/branch.svg';
-
+  //
+  // /// File path: assets/svg/branch.svg
+  // String get branch => 'assets/svg/branch.svg';
+  //
   /// File path: assets/svg/camera.svg
   String get camera => 'assets/svg/camera.svg';
 
-  /// File path: assets/svg/client.svg
-  String get client => 'assets/svg/client.svg';
-
-  /// File path: assets/svg/desc.svg
-  String get desc => 'assets/svg/desc.svg';
-
-  /// File path: assets/svg/edit.svg
-  String get edit => 'assets/svg/edit.svg';
 
   /// File path: assets/svg/gallery.svg
   String get gallery => 'assets/svg/gallery.svg';
-
-  /// File path: assets/svg/home.svg
-  String get home => 'assets/svg/home.svg';
-
-  /// File path: assets/svg/home_filled.svg
-  String get homeFilled => 'assets/svg/home_filled.svg';
-
-  /// File path: assets/svg/info.svg
-  String get info => 'assets/svg/info.svg';
-
-  /// File path: assets/svg/lang.svg
-  String get lang => 'assets/svg/lang.svg';
-
-  /// File path: assets/svg/lock.svg
-  String get lock => 'assets/svg/lock.svg';
-
-  /// File path: assets/svg/logo.svg
-  String get logo => 'assets/svg/logo.svg';
-
-  /// File path: assets/svg/logout.svg
-  String get logout => 'assets/svg/logout.svg';
-
-  /// File path: assets/svg/mode.svg
-  String get mode => 'assets/svg/mode.svg';
-
-  /// File path: assets/svg/notifications.svg
-  String get notifications => 'assets/svg/notifications.svg';
-
-  /// File path: assets/svg/notifications_filled.svg
-  String get notificationsFilled => 'assets/svg/notifications_filled.svg';
-
+  // //
+  // /// File path: assets/svg/logo.svg
+  // String get logo => 'assets/svg/logo.svg';
+  //fications_filled.svg';
+  //
   /// File path: assets/svg/notify.svg
   String get notify => 'assets/svg/notify.svg';
-
-  /// File path: assets/svg/partner.svg
-  String get partner => 'assets/svg/partner.svg';
-
-  /// File path: assets/svg/profile-add.svg
-  String get profileAdd => 'assets/svg/profile-add.svg';
-
-  /// File path: assets/svg/profile.svg
-  String get profile => 'assets/svg/profile.svg';
-
-  /// File path: assets/svg/profile_filled.svg
-  String get profileFilled => 'assets/svg/profile_filled.svg';
-
-  /// File path: assets/svg/qr.svg
-  String get qr => 'assets/svg/qr.svg';
-
-  /// File path: assets/svg/search.svg
-  String get search => 'assets/svg/search.svg';
-
-  /// File path: assets/svg/service.svg
-  String get service => 'assets/svg/service.svg';
-
-  /// File path: assets/svg/service_filled.svg
-  String get serviceFilled => 'assets/svg/service_filled.svg';
-
-  /// File path: assets/svg/terms.svg
-  String get terms => 'assets/svg/terms.svg';
-
-  /// File path: assets/svg/user.svg
-  String get user => 'assets/svg/user.svg';
-
-  /// File path: assets/svg/whatsapp.svg
-  String get whatsapp => 'assets/svg/whatsapp.svg';
-
-  /// File path: assets/svg/youtube.svg
-  String get youtube => 'assets/svg/youtube.svg';
-
-  /// List of all assets
+  //
+  // /// List of all assets
   List<String> get values => [
-        arrow,
         back,
-        branch,
         camera,
-        client,
-        desc,
-        edit,
         gallery,
-        home,
-        homeFilled,
-        info,
-        lang,
-        lock,
-        logo,
-        logout,
-        mode,
-        notifications,
-        notificationsFilled,
+        // logo,
         notify,
-        partner,
-        profileAdd,
-        profile,
-        profileFilled,
-        qr,
-        search,
-        service,
-        serviceFilled,
-        terms,
-        user,
-        whatsapp,
-        youtube
       ];
 }
 

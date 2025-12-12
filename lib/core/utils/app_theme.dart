@@ -36,7 +36,7 @@ class AppThemes {
         hintColor: greyColor,
         primaryColorLight: Colors.white,
         primaryColorDark: blackColor,
-        dialogTheme: DialogTheme(
+        dialogTheme: DialogThemeData(
           elevation: 0,
           backgroundColor: Colors.white,
           insetPadding: EdgeInsets.symmetric(horizontal: 22.w, vertical: 24.h),

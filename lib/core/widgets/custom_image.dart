@@ -275,19 +275,19 @@ class _CashNetworkImageState extends State<CashNetworkImage> {
         },
       );
     } else if (isLoading) {
-      return loading();
+      return CircularProgressIndicator();
     } else {
       return _errorWidget();
     }
   }
 
-  Widget loading() => Container(
-        width: widget.width,
-        height: widget.height,
-        alignment: Alignment.center,
-        decoration: BoxDecoration(borderRadius: widget.borderRadius ?? BorderRadius.zero),
-        child: BaseShimmer(child: Center(child: CustomImage("Assets.svg.logo.path", height: 20.h).withPadding(horizontal: 10.w))),
-      );
+  // Widget loading() => Container(
+  //       width: widget.width,
+  //       height: widget.height,
+  //       alignment: Alignment.center,
+  //       decoration: BoxDecoration(borderRadius: widget.borderRadius ?? BorderRadius.zero),
+  //       child: BaseShimmer(child: Center(child: CustomImage("Assets.svg.logo.path", height: 20.h).withPadding(horizontal: 10.w))),
+  //     );
 
   Widget _errorWidget() {
     delete();

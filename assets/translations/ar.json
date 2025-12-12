@@ -101,5 +101,10 @@
   "subCategory": "الفئات الفرعية",
   "subCategoryBrand": "علامات الفئات الفرعية",
   "codeScan": "ماسح رمز الاستجابة السريعة",
-  "price": "المبلغ"
+  "price": "المبلغ",
+  "branch_city": "فرع مدينة",
+  "invoiceAmount": "قيمة الفاتورة",
+  "discountPercentage": "نسبة الخصم",
+  "amountToBePaid": "المبلغ المستحق الدفع",
+  "transactionDateTime": "تاريخ ووقت المعاملة"
 }

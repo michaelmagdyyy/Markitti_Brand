@@ -46,7 +46,11 @@ class CodeBloc extends Bloc<CodeEvent, CodeState> {
       },
     );
     if (response.success) {
-      infoModel = InfoModel.fromJson(response.data['data']);
+      try{
+        infoModel = InfoModel.fromJson(response.data['data']);
+      }catch(e){
+        print("error= $e");
+      }
       emit(DoneSocketQrState(response.msg));
     } else {
       emit(FailedSocketQrState(response.msg));

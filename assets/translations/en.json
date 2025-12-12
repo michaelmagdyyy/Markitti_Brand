@@ -100,5 +100,11 @@
   "subCategory": "Sub Categories",
   "subCategoryBrand": "Sub Categories brands ",
   "codeScan": "QR Code Scanner",
-  "price": "price"
+  "price": "price",
+
+  "branch_city": "Branch City",
+  "invoiceAmount": "Invoice Amount",
+  "discountPercentage": "Discount Percentage",
+  "amountToBePaid": "Amount To Be Paid",
+  "transactionDateTime": "Transaction DateTime"
 }

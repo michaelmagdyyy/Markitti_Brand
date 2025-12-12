@@ -1,4 +1,5 @@
 import 'package:brand_app/core/utils/extensions.dart';
+import 'package:brand_app/gen/my_images.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -21,8 +22,7 @@ class AuthScaffold extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              CustomImage(Assets.svg.logo,
-                      width: 88.w, height: 28.h, color: context.primaryColorDark)
+              CustomImage(MyImages.logo,width: 100.w, height: 50.h)
                   .center
                   .withPadding(top: 16.h),
               Text(title, style: context.boldText.copyWith(fontSize: 32.sp))
